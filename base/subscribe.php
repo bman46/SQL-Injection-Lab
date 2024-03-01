@@ -2,7 +2,7 @@
 $servername = getenv("SQL_SERVER");
 $username = getenv("SQL_USERNAME");
 $password = getenv("SQL_PASSWORD");
-$dbname = getenv("SQL_PASSWORD");
+$dbname = getenv("SQL_DB");
 
 $email = $_POST['email'];
 
