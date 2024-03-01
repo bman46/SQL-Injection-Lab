@@ -10,4 +10,4 @@ This contains the PSU IST 415 SQL Injection lab wrapped in Docker Compose. To in
 7. Complete the lab
 
 ## Modifications
-Should you need to make a modification to any of the files in this lab, press `ctrl-c` to shutdown the current docker compose session. Then you can make your changes and run `docker compose up` to run the lab with your changes.
+Should you need to make a modification to any of the files in this lab, press `ctrl-c` to shutdown the current docker compose session. Then you can make your changes and run `docker compose up` to run the lab with your changes. You will need to rerun the database setup.
