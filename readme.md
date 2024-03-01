@@ -1,4 +1,4 @@
-# IST 451 SQL Injection Lab (Dockerized)
+# SQL Injection Lab (Dockerized)
 This contains the PSU IST 415 SQL Injection lab wrapped in Docker Compose. To install Docker Compose on your system, install [Docker Desktop](https://www.docker.com/products/docker-desktop/).
 ## Getting Started
 1. Clone this repo with `git clone https://github.com/bman46/SQL-Injection-Lab.git`
