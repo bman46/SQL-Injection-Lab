@@ -6,7 +6,7 @@ WORKDIR /var/www/html
 
 # Install PHP extensions and other dependencies
 RUN apt-get update && \
-    apt-get install -y libpng-dev && \
+    apt-get install -y libpng-dev curl && \
     docker-php-ext-install pdo pdo_mysql gd
 RUN docker-php-ext-install mysqli
 
