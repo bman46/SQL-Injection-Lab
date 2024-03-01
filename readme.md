@@ -8,3 +8,6 @@ This contains the PSU IST 415 SQL Injection lab wrapped in Docker Compose. To in
 5. Navigate to [localhost port 8080](http://localhost:8080/) to access the website
 6. Setup the database using the [database setup page](http://localhost:8080/database-setup.php)
 7. Complete the lab
+
+## Modifications
+Should you need to make a modification to any of the files in this lab, press `ctrl-c` to shutdown the current docker compose session. Then you can make your changes and run `docker compose up` to run the lab with your changes.
