@@ -9,10 +9,17 @@ services:
       SQL_PASSWORD: "secret"
       SQL_DB: "lab"
       VERSION: 3
+    volumes:
+      - db-web-data:/var/www/html/
   mysql:
     image: "mysql:latest"
     expose:
       - "3306"
+    command: "--secure-file-priv=/var/www/webroot"
     environment:
       MYSQL_ROOT_PASSWORD: "secret"
       MYSQL_DATABASE: "lab"
+    volumes:
+      - db-web-data:/var/www/webroot/
+volumes:
+  db-web-data:
